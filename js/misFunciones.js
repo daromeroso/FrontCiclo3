@@ -1,6 +1,6 @@
 function traerInformacionCategorias(){
     $.ajax({
-        url:"http://localhost:8080/api/Category/all",
+        url:"http://129.151.112.10/api/Category/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -35,7 +35,7 @@ function guardarInformacionCategorias(){
         dataType: 'JSON',
         data: JSON.stringify(var2),
         
-        url:"http://localhost:8080/api/Category/save",
+        url:"http://129.151.112.10/api/Category/save",
        
         
         success:function(response) {
@@ -59,7 +59,7 @@ function guardarInformacionCategorias(){
 ///////////////////Motorbikes//////////////////////////////////////
 function traerInformacionMotorbikes(){
     $.ajax({
-        url:"http://localhost:8080/api/Motorbike/all",
+        url:"http://129.151.112.10/api/Motorbike/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -98,7 +98,7 @@ function guardarInformacionMotorbikes(){
         dataType: 'JSON',
         data: JSON.stringify(var3),
         
-        url:"http://localhost:8080/api/Motorbike/save",
+        url:"http://129.151.112.10/api/Motorbike/save",
        
         
         success:function(response) {
@@ -121,7 +121,7 @@ function guardarInformacionMotorbikes(){
 //////////////////////Clientes//////////////////////////////////
 function traerInformacionClientes(){
     $.ajax({
-        url:"http://localhost:8080/api/Client/all",
+        url:"http://129.151.112.10/api/Client/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -160,7 +160,7 @@ function guardarInformacionClientes(){
         dataType: 'JSON',
         data: JSON.stringify(var4),
         
-        url:"http://localhost:8080/api/Client/save",
+        url:"http://129.151.112.10/api/Client/save",
        
         
         success:function(response) {
@@ -184,7 +184,7 @@ function guardarInformacionClientes(){
 //////////////////////Mensajes//////////////////////////////////
 function traerInformacionMensajes(){
     $.ajax({
-        url:"http://localhost:8080/api/Message/all",
+        url:"http://129.151.112.10/api/Message/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -217,7 +217,7 @@ function guardarInformacionMensajes(){
         dataType: 'JSON',
         data: JSON.stringify(var5),
         
-        url:"http://localhost:8080/api/Message/save",
+        url:"http://129.151.112.10/api/Message/save",
        
         
         success:function(response) {
@@ -242,7 +242,7 @@ function guardarInformacionMensajes(){
 //////////////////////Reservaciones//////////////////////////////////
 function traerInformacionReservaciones(){
     $.ajax({
-        url:"http://localhost:8080/api/Reservation/all",
+        url:"http://129.151.112.10/api/Reservation/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
@@ -277,7 +277,7 @@ function guardarInformacionReservaciones(){
         dataType: 'JSON',
         data: JSON.stringify(var6),
         
-        url:"http://localhost:8080/api/Reservation/save",
+        url:"http://129.151.112.10/api/Reservation/save",
        
         
         success:function(response) {
