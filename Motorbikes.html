@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/json" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<link rel="icon" href="imagenes/favicon.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="css/misEstilos.css">	
+    <title>Motos - Diego Romero</title>
+</head>
+<nav>
+	<a href="Index.html"/>Inicio</a> | 
+	<a href="Motorbikes.html"/>Motos</a> | 
+	<a href="Categorias.html"/>Categorias</a> | 
+	<a href="Clientes.html"/>Clientes</a> | 
+	<a href="Reservaciones.html"/>Reservaciones</a> | 
+	<a href="Mensajes.html"/>Mensajes</a> | 
+	<a href="Reportes.html"/>Reportes</a>
+</nav>
+
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+	<h1>Motos</h1>
+
+    <img src="imagenes/motorbike.png" width="150">
+	<br>
+	<br>
+   
+	<button onclick="traerInformacionMotorbikes()">Consultar</button>
+    <button onclick="guardarInformacionMotorbikes()">Agregar Motorbikes</button>
+	
+    <div>
+        <input type="text" id="Bname" placeholder="name">
+        <input type="text" id="Bbrand" placeholder="brand">
+        <input type="number" id="Byear" placeholder="year">
+        <input type="text" id="Bdescription" placeholder="description">  
+		
+    </div>
+    
+	<div id="resultado2"></div>
+	
+	
+	<h1><a href="index.html"/>Inicio</a></h1>	
+	
+	<footer>
+	&copy; Derechos Reservados Diego Romero - Misión TIC 2021 - Ciclo 3 - Reto 5
+	</footer>
+    			
+</body>
+</html>

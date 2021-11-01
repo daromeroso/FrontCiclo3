@@ -1,0 +1,16 @@
+header {
+margin: 30px;
+padding: 15px;
+text-align: center;
+background-color: #CCCCCC;
+}
+
+#titulo {
+font: bold 26px Verdana, sans-serif;
+}
+
+body {
+width: 100%;
+margin: 0px;
+background-color: #3b83bd;
+}
